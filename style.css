@@ -11,6 +11,9 @@
     border-right: 0 solid white;
 }
 
+.enlace{
+    color: white;
+}
 
 
 ::-webkit-scrollbar-thumb{
@@ -727,7 +730,7 @@ button.toggler-menu{
 .no-touch .back:hover {
     color: black;
 	background: #3bb78f;
-	background: rgba(13, 191, 240, 0.9);
+	background: rgb(61, 194, 150);
 }
 
  
@@ -1294,8 +1297,14 @@ button.toggler-menu{
     background: black;
     color: #3bb78f;
     padding: 15px 35px;
-    
 }
+.btn-primary:hover {background-color: #3bb78f}
+.btn-primary:active {
+    background-color: #3bb78f;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
+
 
 #google{
     background: black;
