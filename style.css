@@ -1333,7 +1333,7 @@ button.toggler-menu{
 
 
 .footer .nav a{
-    color: white;
+    color: black;
     font-size: 14px;
     margin: 17px;
 }
@@ -1344,7 +1344,7 @@ button.toggler-menu{
 }
 
 .footer p{
-    color: white;
+    color: black;
     font-stretch: 14px;
     margin: 0;
 }
