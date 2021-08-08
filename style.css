@@ -460,11 +460,12 @@ button.toggler-menu{
 }
 #about-2{
     font-family: 'Poppins',sans-serif;
-    background: white;
+    background: linear-gradient(789deg, #3bb78f -50%, white 54%);
 }
 .container2{
-    background:white;
+    background: linear-gradient(809deg, #3bb78f -50%, white 54%);
 }
+
 .about-me img{
     border-radius: 50%;
     overflow: hidden;
@@ -716,8 +717,8 @@ button.toggler-menu{
 	text-align: center;
 	line-height: 38px;
 	color: #3bb78f;
-	background: white;
-	background: rgb(255, 255, 255);
+	background: black;
+	background: rgb(0, 0, 0);
 	cursor: pointer;
 	display: none;	 
 	user-select: none;
@@ -813,7 +814,10 @@ button.toggler-menu{
 	color: #3bb78f;
 		 
 }
+#blog{
+    background: linear-gradient(295deg, #3bb78f 10%, white 74%);
 
+}
 #blog h2{
     font-family: 'Poppins',sans-serif;
     color: black;
@@ -841,7 +845,8 @@ button.toggler-menu{
 
 
 .port{
-    background: white;
+    background: linear-gradient(295deg, #3bb78f 10%, white 74%);
+
     width: 200px;
     text-align: center;
     overflow: hidden;
@@ -1037,6 +1042,9 @@ button.toggler-menu{
 }
 
 
+.col-lg-13{
+    background-image: radial-gradient(#3bb78f 0%, white 24%);
+}
 .cube{
     overflow-x: hidden !important;
     margin-top: 30px;
@@ -1087,7 +1095,8 @@ button.toggler-menu{
 .plus::after{
     content: "";
     position: absolute;
-    background: black;
+    background: linear-gradient(295deg, #3bb78f 10%, white 74%);
+
 }
 
 .cbp-item a img{
@@ -1105,7 +1114,9 @@ button.toggler-menu{
 .resume-box{
     font-family: 'Poppins',sans-serif;
 }
-
+#skills{
+    background: linear-gradient(364deg, black 10%, white 74%);
+}
 .education-box{
     margin: 0;
     padding: 35px;
@@ -1286,7 +1297,9 @@ button.toggler-menu{
     
 }
 
-
+#google{
+    background: black;
+}
 .google-map{
     margin-top: 50px;
 }
