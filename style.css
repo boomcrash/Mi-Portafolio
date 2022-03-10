@@ -1408,6 +1408,32 @@ button.toggler-menu{
     .cbp-item a:hover img{
         transform: scale(2) !important;
     }
+
+    .copyrigth{
+        color: navy;
+        text-indent: 30px;
+        text-transform: uppercase;
+    }
+    .correo{
+        color: navy;
+        text-indent: 30px;
+        text-transform: uppercase;
+    }
+
+    .education-box{
+        margin: 0;
+        padding: 35px;
+        border-radius: 10px;
+        background: #13131e;
+        list-style: none;
+        color: white;
+        width: 390px;
+        height: 410px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+   
 }
 
 @media (max-width: 1280px){
