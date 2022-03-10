@@ -1370,6 +1370,16 @@ button.toggler-menu{
         z-index: 1;
     }
 
+    .perfil-img{
+        position: relative;
+        margin: 60px;
+        display: block;
+    }
+    .perfil-nav{
+        position: relative;
+        margin: 60px;
+    }
+
 }
 
 
