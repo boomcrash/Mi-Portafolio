@@ -1336,7 +1336,7 @@ button.toggler-menu{
 
 
 
-@media (max-width: 767px){
+@media (max-width: 1000px){
                    
     .header-left{
         transition: ease all 0.35s;
@@ -1370,14 +1370,10 @@ button.toggler-menu{
         z-index: 1;
     }
 
-    .perfil-img{
-        position: relative;
-        margin: 60px;
-        display: block;
-    }
+
     .perfil-nav{
-        position: relative;
-        margin: 60px;
+        position: absolute;
+        margin-left: -350px;
     }
 
 }
