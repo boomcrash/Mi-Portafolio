@@ -1375,7 +1375,23 @@ button.toggler-menu{
         position: absolute;
         margin-left: -350px;
     }
+    .info{
+        position: relative;
+        margin-left: -1px;
+    }
 
+    .movil{
+        bottom: 10px;
+    }
+
+    .web{
+        top: 10px;
+    }
+
+    .wrapper img{
+        width:inherit;
+        
+    }
 }
 
 
