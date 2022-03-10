@@ -225,23 +225,6 @@ button.toggler-menu{
 }
 
 
-@media (max-width: 767px){
-    .mob-header{
-        display: block;
-    }
-    
-    
-    .header-left{
-        transition: ease all 0.35s;
-        left: -200px;
-        z-index: 222;
-    }
-    
-    .header-left.menu-open{
-        left: 0;
-    }
-    
-}
 
 
 .banner{
@@ -1350,6 +1333,37 @@ button.toggler-menu{
 }
 
 
+@media only screen and (max-width : 750px) {
+    .mob-header{
+        display: none;
+
+    }
+    
+    
+    .header-left{
+        transition: ease all 0.35s;
+        left: -100px;
+        z-index: 222;
+    }
+    
+    .header-left.menu-open{
+        left: 0;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .me{
+        display: none;
+    }
+    .wow{
+        height: auto;
+    }
+    #home{
+        max-height: 570px;
+    }
+}
 
 
 
