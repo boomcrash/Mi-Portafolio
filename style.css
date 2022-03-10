@@ -1381,19 +1381,60 @@ button.toggler-menu{
     }
 
     .movil{
-        bottom: 10px;
+        bottom: 15px;
     }
 
     .web{
-        top: 10px;
+        top: 15px;
     }
 
-    .wrapper img{
-        width:inherit;
-        
+    .port{
+        margin-left: -60px;
+    }
+    .col-lg-12{
+        padding-left: 70px;
+    }
+
+    .Btn{
+        margin-left: -60px;
+    }
+
+
+
+    .cbp-item a img{
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .cbp-item a:hover img{
+        transform: scale(2) !important;
     }
 }
 
+@media (max-width: 1280px){
+                   
+    .header-left{
+        transition: ease all 0.35s;
+        left: -100px;
+        z-index: 222;
+    }
+    
+    .header-left.menu-open{
+        left: 0;
+    }
+    .wow{
+        height: auto;
+    }
+    #home{
+        max-height: 650px;
+    }
+    .port{
+        margin-left: -60px;
+    }
+    .col-lg-12{
+        padding-left: 70px;
+    }
+
+}
 
 
 
